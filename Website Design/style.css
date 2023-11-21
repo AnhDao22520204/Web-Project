@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+/* section */
+#nav-bar {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+/* nav */
+.navbar {
+    background-image: linear-gradient(to right, #a517ba, #5f1782);
+    padding: 0 !important;
+}
+
+/* <a> img logo */
+.navbar-brand img {
+    height: 40px;
+    padding-left: 20px;
+}
+
+/* ul */
+.navbar-nav li {
+    padding: 0 10px;
+}
+
+.navbar-nav li a {
+    color: #fff;
+    font-weight: 600;
+}
